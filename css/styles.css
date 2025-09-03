@@ -1,0 +1,81 @@
+head {
+    font-family: "TASA Explorer", sans-serif; /* added font (SEP 3) */
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+:root{
+    --background-color: rgb(234, 229, 229);
+    --dark-color: rgb(129, 24, 234);
+    --light-color: white;
+    --link-color: rgb(250, 147, 164);
+}
+
+body {
+    font-family: 'Work Sans', sans-serif; /* added font (SEP 3) */
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--background-color);
+    margin: 1em;
+    font-size: 1em;
+    color: var(--dark-color);
+}
+
+main {
+    position: relative;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+#head {
+    display: flex;
+    justify-content: space-between;
+}
+
+#head h3 a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+}
+.post {
+    border:1px solid var(--dark-color);
+    margin-bottom: 1em;
+    padding: .5em 1em;
+    img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    a {
+        color: var(--link-color);
+        background-color: var(--light-color);
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+/* class = . */
+.special-headline { 
+    color: purple;
+    font-weight: 900
+}
+
+/* id = # */
+#unique-headline { 
+    font-weight: 600;
+    color: magenta;
+}
+
+#post {
+    background-color: var(--dark-color);
+    color: var(--light-color);  
+    margin-bottom: 1em;
+    padding: .5em 1em;
+}
