@@ -42,6 +42,7 @@ footer{
     text-align: center;
     justify-content: center;
 }
+
 .post {
     border:1px solid var(--dark-color);
     margin-bottom: 1em;
