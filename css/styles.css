@@ -62,8 +62,8 @@ footer{
     }
 }
 
-.hightlight {
-    background-color: var(--dark-color);
+.highlight {
+    background-color: blue;
     color: var(--light-color);
 }
 
