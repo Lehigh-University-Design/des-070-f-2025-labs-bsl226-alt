@@ -191,6 +191,8 @@ footer{
   padding: 1em;
 }
 
+/* LAB 3 - CSS GRID (SEP 24) */
+
 .grid-parent {
     display: grid;
     /* grid-template-columns: 25% 75%; */
@@ -332,7 +334,7 @@ footer{
 
 }
 
-/* OCT 1 */
+/* LAB 4 - FLEXBOX (OCT 1) */
 
 .flex-container-justify {
   display: flex;
