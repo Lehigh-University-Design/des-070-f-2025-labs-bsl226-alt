@@ -332,3 +332,89 @@ footer{
 
 }
 
+/* OCT 1 */
+
+.flex-container-justify {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  /*justify-content: start;
+  justify-content: end;
+  justify-content: flex-start;
+  justify-content: flex-end;
+  justify-content: left;
+  justify-content: right;*/
+}
+
+.flex-container-align {
+  display: flex;
+  flex-wrap: nowrap;
+  height: 60vh;
+  align-items: flex-start;
+  justify-content: center;
+  /*align-items: start;
+  align-items: end;
+  align-items: flex-start;
+  align-items: flex-end;
+  align-items: left;
+  align-items: right;*/
+
+  /*note: you can comnbine align-items with justify-content
+  justify-content: left;
+  */
+
+  /*flex-direction: row;*/
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column;*/
+  /*flex-direction: column-reverse;*/
+
+}
+
+.flex-item {
+  width: 100px;
+  background-color:hsl(16, 100%, 66%);
+  margin: 1em;
+  padding: 1em;
+}
+
+/*
+.flex-container-align > .flex-item:nth-child(even) {
+  align-self: flex-end;
+  background-color: lightcoral; 
+}
+*/
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.flex-card {
+  width: calc(100%/3);
+  display: flex;
+}
+
+.flex-card-inner {
+  margin: 1em;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: beige;
+  flex-direction: column;
+  text-align: center;
+  h4{
+    background-color: black;
+    display: inline-block;
+    color: #fff;
+    padding: .25em;
+  }
+  img {
+    border-radius: 50%;
+  }
+}
+
+.flex-card-inner > div:nth-child(2) {
+  flex-grow: 1;
+}
