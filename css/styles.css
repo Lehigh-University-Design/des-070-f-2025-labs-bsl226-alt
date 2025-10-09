@@ -196,7 +196,7 @@ footer{
 .grid-parent {
     display: grid;
     /* grid-template-columns: 25% 75%; */
-    grid-template-columns: 1fr 3fr; /* 1fr = grid-parent 1, 3fr = grid-child 2 */
+    grid-template-columns: 1fr 3fr; /* 1fr = grid-child 1, 3fr = grid-child 2 */
     gap: 1em;
     margin-bottom: 1em;
 }
@@ -210,8 +210,8 @@ footer{
 
 .grid-layout-parent {
     display: grid;
-    grid-template-columns: 1fr, 3fr; /* repeat 3 times, each 1fr */
-    grid-template-rows: 1fr, 5fr;
+    grid-template-columns: 1fr, 1fr; /* repeat 3 times, each 1fr */
+    grid-template-rows: 1fr, 1fr;
     gap: 1em;
     margin-bottom: 1em;
 }
